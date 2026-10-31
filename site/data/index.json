@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "mozilla__BrowserQuest",
+    "name": "mozilla/BrowserQuest",
+    "born": "2011-10-03T15:29:20Z",
+    "died": "2012-04-10T17:30:26Z",
+    "epitaph": "",
+    "stars": 9371
+  },
+  {
+    "slug": "facebookarchive__three20",
+    "name": "facebookarchive/three20",
+    "born": "2009-01-23T06:29:27Z",
+    "died": "2014-05-14T01:06:26Z",
+    "epitaph": "",
+    "stars": 7153
+  },
+  {
+    "slug": "mozilla__persona",
+    "name": "mozilla/persona",
+    "born": "2011-04-06T18:22:25Z",
+    "died": "2016-05-11T00:19:24Z",
+    "epitaph": "",
+    "stars": 1839
+  },
+  {
+    "slug": "nodejs__node-v0.x-archive",
+    "name": "nodejs/node-v0.x-archive",
+    "born": "2015-09-16T12:55:59Z",
+    "died": "2017-08-12T23:42:43Z",
+    "epitaph": "",
+    "stars": 34265
+  },
+  {
+    "slug": "left-pad__left-pad",
+    "name": "left-pad/left-pad",
+    "born": "2014-03-14T09:09:47Z",
+    "died": "2019-03-14T23:18:45Z",
+    "epitaph": "",
+    "stars": 1303
+  },
+  {
+    "slug": "request__request",
+    "name": "request/request",
+    "born": "2010-05-07T22:03:37Z",
+    "died": "2020-02-11T23:39:46Z",
+    "epitaph": "",
+    "stars": 25484
+  },
+  {
+    "slug": "adobe__brackets",
+    "name": "adobe/brackets",
+    "born": "2011-12-07T21:20:16Z",
+    "died": "2021-03-18T13:52:19Z",
+    "epitaph": "",
+    "stars": 32976
+  },
+  {
+    "slug": "atom__atom",
+    "name": "atom/atom",
+    "born": "2011-08-19T04:11:59Z",
+    "died": "2022-11-22T16:11:57Z",
+    "epitaph": "",
+    "stars": 60707
+  },
+  {
+    "slug": "angular__angular.js",
+    "name": "angular/angular.js",
+    "born": "1970-01-01T00:00:01Z",
+    "died": "2024-04-12T17:43:13Z",
+    "epitaph": "",
+    "stars": 58463
+  }
+]

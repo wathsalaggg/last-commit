@@ -1,0 +1,57 @@
+{
+  "facts": {
+    "full_name": "mozilla/BrowserQuest",
+    "url": "https://github.com/mozilla/BrowserQuest",
+    "description": "DEPRECATED - A HTML5/JavaScript multiplayer game experiment",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "homepage": "http://browserquest.mozilla.org/",
+    "archived": true,
+    "created_at": "2011-09-30T18:47:48Z",
+    "pushed_at": "2023-07-14T00:56:50Z",
+    "born": "2011-10-03T15:29:20Z",
+    "died": "2012-04-10T17:30:26Z",
+    "lifespan_years": 0.5,
+    "years_since_last_commit": 14.6,
+    "stars": 9371,
+    "forks": 2937,
+    "open_issues": 0,
+    "total_commits": 153,
+    "first_commit": {
+      "sha": "8d91f68",
+      "url": "https://github.com/mozilla/BrowserQuest/commit/8d91f683629e8ce60144f2d206ecca4600402004",
+      "message": "Initial commit",
+      "date": "2011-10-03T15:29:20Z",
+      "author": "sork"
+    },
+    "last_commit": {
+      "sha": "af32d24",
+      "url": "https://github.com/mozilla/BrowserQuest/commit/af32d247cac3495ca430d0effbb88dd5f3250b2c",
+      "message": "Update map exporter docs",
+      "date": "2012-04-10T17:30:26Z",
+      "author": "sork"
+    },
+    "top_contributors": [
+      {
+        "login": "sork",
+        "contributions": 81
+      },
+      {
+        "login": "glecollinet",
+        "contributions": 62
+      },
+      {
+        "login": "mkrecny",
+        "contributions": 8
+      },
+      {
+        "login": "bnoordhuis",
+        "contributions": 2
+      }
+    ],
+    "latest_release": null,
+    "fetched_at": "2026-10-31T17:05:13+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}

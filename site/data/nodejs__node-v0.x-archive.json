@@ -1,0 +1,49 @@
+{
+  "facts": {
+    "full_name": "nodejs/node-v0.x-archive",
+    "url": "https://github.com/nodejs/node-v0.x-archive",
+    "description": "Moved to https://github.com/nodejs/node",
+    "language": null,
+    "license": null,
+    "homepage": null,
+    "archived": true,
+    "created_at": "2009-05-27T16:29:46Z",
+    "pushed_at": "2024-08-15T20:32:32Z",
+    "born": "2015-09-16T12:55:59Z",
+    "died": "2017-08-12T23:42:43Z",
+    "lifespan_years": 1.9,
+    "years_since_last_commit": 9.2,
+    "stars": 34265,
+    "forks": 7198,
+    "open_issues": 0,
+    "total_commits": 2,
+    "first_commit": {
+      "sha": "c06faa6",
+      "url": "https://github.com/nodejs/node-v0.x-archive/commit/c06faa649d93f8a80d3501cf070f1565978ac9fd",
+      "message": "Node.js has moved",
+      "date": "2015-09-16T12:55:59Z",
+      "author": "orangemocha"
+    },
+    "last_commit": {
+      "sha": "2a73a6a",
+      "url": "https://github.com/nodejs/node-v0.x-archive/commit/2a73a6ac7f4bcf70f57a1936ec63981a9104ea00",
+      "message": "meta: redirect to active repo (#26598)",
+      "date": "2017-08-12T23:42:43Z",
+      "author": "refack"
+    },
+    "top_contributors": [
+      {
+        "login": "orangemocha",
+        "contributions": 1
+      },
+      {
+        "login": "refack",
+        "contributions": 1
+      }
+    ],
+    "latest_release": null,
+    "fetched_at": "2026-10-31T17:05:26+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}

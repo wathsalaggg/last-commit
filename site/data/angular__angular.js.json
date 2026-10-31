@@ -1,0 +1,61 @@
+{
+  "facts": {
+    "full_name": "angular/angular.js",
+    "url": "https://github.com/angular/angular.js",
+    "description": "AngularJS - HTML enhanced for web apps!",
+    "language": "JavaScript",
+    "license": "MIT",
+    "homepage": "https://angularjs.org",
+    "archived": true,
+    "created_at": "2010-01-06T00:34:37Z",
+    "pushed_at": "2024-04-12T17:43:16Z",
+    "born": "1970-01-01T00:00:01Z",
+    "died": "2024-04-12T17:43:13Z",
+    "lifespan_years": 54.3,
+    "years_since_last_commit": 2.5,
+    "stars": 58463,
+    "forks": 26924,
+    "open_issues": 461,
+    "total_commits": 9074,
+    "first_commit": {
+      "sha": "866346e",
+      "url": "https://github.com/angular/angular.js/commit/866346e1ada583daeb649c253516c8f8a879c387",
+      "message": "git5: git5track synced with perforce at 0",
+      "date": "1970-01-01T00:00:01Z",
+      "author": "git5"
+    },
+    "last_commit": {
+      "sha": "d8f7781",
+      "url": "https://github.com/angular/angular.js/commit/d8f77817eb5c98dec5317bc3756d1ea1812bcfbe",
+      "message": "chore: update post LTS links (#17187)",
+      "date": "2024-04-12T17:43:13Z",
+      "author": "Brocco"
+    },
+    "top_contributors": [
+      {
+        "login": "IgorMinar",
+        "contributions": 1441
+      },
+      {
+        "login": "petebacondarwin",
+        "contributions": 855
+      },
+      {
+        "login": "mhevery",
+        "contributions": 730
+      },
+      {
+        "login": "Narretz",
+        "contributions": 525
+      },
+      {
+        "login": "gkalpak",
+        "contributions": 431
+      }
+    ],
+    "latest_release": null,
+    "fetched_at": "2026-10-31T17:05:06+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}

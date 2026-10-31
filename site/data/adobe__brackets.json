@@ -1,0 +1,64 @@
+{
+  "facts": {
+    "full_name": "adobe/brackets",
+    "url": "https://github.com/adobe/brackets",
+    "description": "An open source code editor for the web, written in JavaScript, HTML and CSS.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "homepage": "http://brackets.io",
+    "archived": true,
+    "created_at": "2011-12-07T21:14:40Z",
+    "pushed_at": "2022-06-12T08:19:24Z",
+    "born": "2011-12-07T21:20:16Z",
+    "died": "2021-03-18T13:52:19Z",
+    "lifespan_years": 9.3,
+    "years_since_last_commit": 5.6,
+    "stars": 32976,
+    "forks": 7428,
+    "open_issues": 2773,
+    "total_commits": 17847,
+    "first_commit": {
+      "sha": "637d7f4",
+      "url": "https://github.com/adobe/brackets/commit/637d7f4ffa0f2396c2fb61a5e51b9b980f47a2c2",
+      "message": "Initial commit",
+      "date": "2011-12-07T21:20:16Z",
+      "author": "njadbe"
+    },
+    "last_commit": {
+      "sha": "d55ac60",
+      "url": "https://github.com/adobe/brackets/commit/d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a",
+      "message": "Change hyperlink",
+      "date": "2021-03-18T13:52:19Z",
+      "author": "swmitra"
+    },
+    "top_contributors": [
+      {
+        "login": "redmunds",
+        "contributions": 1842
+      },
+      {
+        "login": "jasonsanjose",
+        "contributions": 1724
+      },
+      {
+        "login": "peterflynn",
+        "contributions": 1064
+      },
+      {
+        "login": "gruehle",
+        "contributions": 1003
+      },
+      {
+        "login": "RaymondLim",
+        "contributions": 905
+      }
+    ],
+    "latest_release": {
+      "tag": "release-1.14.2",
+      "date": "2020-04-06T06:09:32Z"
+    },
+    "fetched_at": "2026-10-31T17:05:10+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}

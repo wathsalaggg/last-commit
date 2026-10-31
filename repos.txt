@@ -1,0 +1,16 @@
+# Repos to haunt. One per line; "#" comments out a line.
+# All checked on 2026-10-31: archived on GitHub unless noted.
+atom/atom                    # the hackable editor, sunset 2022
+angular/angular.js           # AngularJS, end of life Jan 2022
+adobe/brackets               # Adobe's web editor
+mozilla/BrowserQuest         # HTML5 MMO demo
+left-pad/left-pad            # eleven lines that broke npm
+mozilla/persona              # Mozilla's login system
+facebookarchive/three20      # early iOS framework
+nodejs/node-v0.x-archive     # Node before io.js reunion
+request/request              # deprecated, never archived
+# Extras if you want a bigger graveyard:
+# facebookarchive/flux
+# nicklockwood/iCarousel
+# openai/gym
+# tensorflow/swift

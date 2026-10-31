@@ -1,0 +1,61 @@
+{
+  "facts": {
+    "full_name": "request/request",
+    "url": "https://github.com/request/request",
+    "description": "🏊🏾 Simplified HTTP request client.",
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "homepage": null,
+    "archived": false,
+    "created_at": "2011-01-23T01:25:14Z",
+    "pushed_at": "2024-08-14T00:09:41Z",
+    "born": "2010-05-07T22:03:37Z",
+    "died": "2020-02-11T23:39:46Z",
+    "lifespan_years": 9.8,
+    "years_since_last_commit": 6.7,
+    "stars": 25484,
+    "forks": 3134,
+    "open_issues": 145,
+    "total_commits": 2270,
+    "first_commit": {
+      "sha": "758f598",
+      "url": "https://github.com/request/request/commit/758f598de8d6024db3fa8ee7d0a1fc3e45c50f53",
+      "message": "Initial commit. Request package.",
+      "date": "2010-05-07T22:03:37Z",
+      "author": "mikeal"
+    },
+    "last_commit": {
+      "sha": "3c0cddc",
+      "url": "https://github.com/request/request/commit/3c0cddc7c8eb60b470e9519da85896ed7ee0081e",
+      "message": "README: typo in deprecation message (#3268)",
+      "date": "2020-02-11T23:39:46Z",
+      "author": "gr2m"
+    },
+    "top_contributors": [
+      {
+        "login": "mikeal",
+        "contributions": 623
+      },
+      {
+        "login": "simov",
+        "contributions": 475
+      },
+      {
+        "login": "nylen",
+        "contributions": 300
+      },
+      {
+        "login": "greenkeeperio-bot",
+        "contributions": 49
+      },
+      {
+        "login": "seanstrom",
+        "contributions": 46
+      }
+    ],
+    "latest_release": null,
+    "fetched_at": "2026-10-31T17:05:33+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}

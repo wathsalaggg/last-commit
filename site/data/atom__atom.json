@@ -1,0 +1,64 @@
+{
+  "facts": {
+    "full_name": "atom/atom",
+    "url": "https://github.com/atom/atom",
+    "description": ":atom: The hackable text editor",
+    "language": "JavaScript",
+    "license": "MIT",
+    "homepage": "https://atom.io",
+    "archived": true,
+    "created_at": "2012-01-20T18:18:21Z",
+    "pushed_at": "2023-01-03T10:49:48Z",
+    "born": "2011-08-19T04:11:59Z",
+    "died": "2022-11-22T16:11:57Z",
+    "lifespan_years": 11.3,
+    "years_since_last_commit": 3.9,
+    "stars": 60707,
+    "forks": 17168,
+    "open_issues": 992,
+    "total_commits": 38533,
+    "first_commit": {
+      "sha": "3a09528",
+      "url": "https://github.com/atom/atom/commit/3a09528a62f29e86bc15140a13d1bdbd9322e0e9",
+      "message": "try it out",
+      "date": "2011-08-19T04:11:59Z",
+      "author": "defunkt"
+    },
+    "last_commit": {
+      "sha": "1c3bd35",
+      "url": "https://github.com/atom/atom/commit/1c3bd35ce238dc0491def9e1780d04748d8e18af",
+      "message": "Merge pull request #25709 from atom/fix-snapshot-result-macos",
+      "date": "2022-11-22T16:11:57Z",
+      "author": "sergiou87"
+    },
+    "top_contributors": [
+      {
+        "login": "kevinsawicki",
+        "contributions": 9239
+      },
+      {
+        "login": "benogle",
+        "contributions": 2266
+      },
+      {
+        "login": "maxbrunsfeld",
+        "contributions": 1859
+      },
+      {
+        "login": "as-cii",
+        "contributions": 1072
+      },
+      {
+        "login": "probablycorey-and-nathan",
+        "contributions": 931
+      }
+    ],
+    "latest_release": {
+      "tag": "v1.60.0",
+      "date": "2022-03-08T09:58:25Z"
+    },
+    "fetched_at": "2026-10-31T17:05:03+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}
