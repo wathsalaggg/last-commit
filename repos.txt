@@ -7,10 +7,9 @@ mozilla/BrowserQuest         # HTML5 MMO demo
 left-pad/left-pad            # eleven lines that broke npm
 mozilla/persona              # Mozilla's login system
 facebookarchive/three20      # early iOS framework
-nodejs/node-v0.x-archive     # Node before io.js reunion
+facebookarchive/flux         # the original React data flow
 request/request              # deprecated, never archived
 # Extras if you want a bigger graveyard:
-# facebookarchive/flux
 # nicklockwood/iCarousel
 # openai/gym
 # tensorflow/swift

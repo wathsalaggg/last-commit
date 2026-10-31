@@ -24,14 +24,6 @@
     "stars": 1839
   },
   {
-    "slug": "nodejs__node-v0.x-archive",
-    "name": "nodejs/node-v0.x-archive",
-    "born": "2015-09-16T12:55:59Z",
-    "died": "2017-08-12T23:42:43Z",
-    "epitaph": "",
-    "stars": 34265
-  },
-  {
     "slug": "left-pad__left-pad",
     "name": "left-pad/left-pad",
     "born": "2014-03-14T09:09:47Z",
@@ -64,9 +56,17 @@
     "stars": 60707
   },
   {
+    "slug": "facebookarchive__flux",
+    "name": "facebookarchive/flux",
+    "born": "2014-07-24T01:15:11Z",
+    "died": "2023-03-21T23:39:37Z",
+    "epitaph": "",
+    "stars": 17436
+  },
+  {
     "slug": "angular__angular.js",
     "name": "angular/angular.js",
-    "born": "1970-01-01T00:00:01Z",
+    "born": "2010-01-06T00:34:37Z",
     "died": "2024-04-12T17:43:13Z",
     "epitaph": "",
     "stars": 58463

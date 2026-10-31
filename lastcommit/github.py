@@ -96,7 +96,10 @@ def gather(url_or_slug: str) -> dict:
         latest_release = None
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    born = first["date"] if first else repo["created_at"]
+    # Imported histories sometimes carry bogus epoch dates (AngularJS's first
+    # commit says 1970). Git didn't exist before 2005, so fall back to the
+    # repo's creation date in that case.
+    born = first["date"] if first and first["date"][:4] >= "2005" else repo["created_at"]
     died = last["date"] if last else repo["pushed_at"]
 
     return {

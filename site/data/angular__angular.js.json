@@ -9,9 +9,9 @@
     "archived": true,
     "created_at": "2010-01-06T00:34:37Z",
     "pushed_at": "2024-04-12T17:43:16Z",
-    "born": "1970-01-01T00:00:01Z",
+    "born": "2010-01-06T00:34:37Z",
     "died": "2024-04-12T17:43:13Z",
-    "lifespan_years": 54.3,
+    "lifespan_years": 14.3,
     "years_since_last_commit": 2.5,
     "stars": 58463,
     "forks": 26924,
@@ -54,7 +54,7 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-10-31T17:05:06+00:00"
+    "fetched_at": "2026-10-31T17:06:04+00:00"
   },
   "ghost": null,
   "audio": null

@@ -1,0 +1,60 @@
+{
+  "facts": {
+    "full_name": "facebookarchive/flux",
+    "url": "https://github.com/facebookarchive/flux",
+    "description": "Application Architecture for Building User Interfaces",
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "homepage": "https://facebookarchive.github.io/flux/",
+    "archived": true,
+    "created_at": "2014-07-20T23:33:08Z",
+    "pushed_at": "2023-03-21T23:41:43Z",
+    "born": "2014-07-24T01:15:11Z",
+    "died": "2023-03-21T23:39:37Z",
+    "lifespan_years": 8.7,
+    "years_since_last_commit": 3.6,
+    "stars": 17436,
+    "forks": 3369,
+    "open_issues": 6,
+    "total_commits": 506,
+    "first_commit": {
+      "sha": "45c856e",
+      "url": "https://github.com/facebookarchive/flux/commit/45c856e78783f132f491d9a374a3895a5ee1076c",
+      "message": "Initial commit",
+      "date": "2014-07-24T01:15:11Z",
+      "author": "zpao"
+    },
+    "last_commit": {
+      "sha": "4ee8c50",
+      "url": "https://github.com/facebookarchive/flux/commit/4ee8c50865c357e005cb40ea03cdd403533aad26",
+      "message": "4.0.4",
+      "date": "2023-03-21T23:39:37Z",
+      "author": "yangshun"
+    },
+    "top_contributors": [
+      {
+        "login": "fisherwebdev",
+        "contributions": 101
+      },
+      {
+        "login": "kyldvs",
+        "contributions": 65
+      },
+      {
+        "login": "zpao",
+        "contributions": 44
+      },
+      {
+        "login": "yangshun",
+        "contributions": 39
+      }
+    ],
+    "latest_release": {
+      "tag": "4.0.3",
+      "date": "2021-12-10T23:32:16Z"
+    },
+    "fetched_at": "2026-10-31T17:06:28+00:00"
+  },
+  "ghost": null,
+  "audio": null
+}
