@@ -1,0 +1,14 @@
+# Render Blueprint: deploys the graveyard as a static site (no backend).
+services:
+  - type: web
+    name: last-commit
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./site
+    headers:
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=300
+      - path: /audio/*
+        name: Cache-Control
+        value: public, max-age=86400
