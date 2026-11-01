@@ -2,9 +2,11 @@
 
 **Every repo dies with one final commit. On Día de Muertos, they speak.**
 
+**Live:** https://lastcommit.wathsala.tech
+
 Last Commit is a graveyard for abandoned GitHub projects. Each grave is an *ofrenda*:
 the repo's real history on one side, and on the other a first-person monologue from
-its ghost, written by **Gemma** running locally and voiced by **ElevenLabs**.
+its ghost, written by **Gemma 4** and voiced by **ElevenLabs**.
 
 The séance happens on my laptop. The graveyard is public.
 
@@ -27,7 +29,7 @@ still slips through is scrubbed.
 ```
 repos.txt ──► seance.py ──► GitHub API  (facts)
                     │
-                    ├──► Gemma via Ollama, on this laptop  (epitaph + monologue)
+                    ├──► Gemma 4 via AI Studio (or Ollama)  (epitaph + monologue)
                     ├──► ElevenLabs                         (voice, MP3)
                     ▼
             site/data/*.json + site/audio/*.mp3 ──► static site on Render
@@ -38,12 +40,11 @@ plain HTML/CSS/JS for the site.
 
 ## Run it yourself
 
-Requirements: Python 3.10+, [Ollama](https://ollama.com), an ElevenLabs API key.
+Requirements: Python 3.10+, a Google AI Studio key (or [Ollama](https://ollama.com) for local Gemma), an ElevenLabs API key.
 
 ```bash
 git clone https://github.com/wathsalaggg/last-commit && cd last-commit
-cp .env.example .env            # add your ElevenLabs key and a GitHub token
-ollama pull gemma3:4b           # or gemma3:1b on low-RAM machines
+cp .env.example .env            # add your AI Studio, ElevenLabs and GitHub keys
 
 python3 seance.py atom/atom     # one repo
 python3 seance.py --all         # every repo in repos.txt
@@ -53,8 +54,8 @@ cd site && python3 -m http.server 8000   # open http://localhost:8000
 ```
 
 Options: `--no-voice` skips ElevenLabs, `--facts-only` just refreshes GitHub data.
-Set `PROVIDER=aistudio` and `MODEL=gemma-3-4b-it` with a `GEMINI_API_KEY` to run
-Gemma through Google AI Studio instead of locally.
+Defaults to `gemma-4-26b-a4b-it` on Google AI Studio. To run Gemma locally instead,
+set `PROVIDER=ollama` and `MODEL=gemma3:1b` and run `ollama pull gemma3:1b`.
 
 ## Deploy
 
