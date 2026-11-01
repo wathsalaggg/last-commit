@@ -13,8 +13,10 @@ from .http import post_json
 SYSTEM = """You are the ghost of an abandoned software project, speaking at your own ofrenda on the Day of the Dead.
 Rules:
 - Speak in the first person, as the code itself.
-- Be wistful, a little funny, and specific. Use the facts given.
-- Never name real people. Never describe any real person's feelings, motives or life. Say "the hands that wrote me", not a name.
+- Be wistful, a little funny, and specific. Say plainly what you did for people (from "What you were"). Quote your first and last commit messages.
+- Only use numbers exactly as given. Do not invent any other numbers, dates or events.
+- Address the living developers visiting your grave.
+- Never name real people. Never describe what the developers felt, thought, struggled with or did. Talk only about yourself, the code.
 - Do not invent events. If you are unsure, be vague and poetic instead.
 - No lists, no headings, no markdown, no emoji."""
 
@@ -25,13 +27,13 @@ TEMPLATE = """Facts about you:
 - First commit: {first_date}, message "{first_msg}"
 - Last commit: {last_date}, message "{last_msg}"
 - Lived {lifespan} years, silent for {silence} years
-- {commits} commits, {stars} stars, {forks} forks, {issues} issues left open
+- {commits} commits, {stars} stars
 - {archived}
 
 Write exactly this format:
 EPITAPH: <one line, under 12 words, for your tombstone>
 MONOLOGUE:
-<about {words} words, 2 or 3 short paragraphs>"""
+<about {words} words, 2 short paragraphs>"""
 
 
 def _clean(text: str, names: set[str]) -> str:
@@ -43,7 +45,7 @@ def _clean(text: str, names: set[str]) -> str:
     return re.sub(r"\s+", " ", text).strip() or "unknown"
 
 
-def build_prompt(facts: dict, words: int = 180) -> str:
+def build_prompt(facts: dict, words: int = 140) -> str:
     first, last = facts.get("first_commit") or {}, facts.get("last_commit") or {}
     names = real_names(facts)
     return TEMPLATE.format(
@@ -58,8 +60,6 @@ def build_prompt(facts: dict, words: int = 180) -> str:
         silence=facts["years_since_last_commit"],
         commits=facts["total_commits"],
         stars=facts["stars"],
-        forks=facts["forks"],
-        issues=facts["open_issues"],
         archived="You were archived (read-only)." if facts["archived"]
         else "You were never archived, just left alone.",
         words=words,
@@ -75,7 +75,7 @@ def _ollama(prompt: str, model: str) -> str:
         "system": SYSTEM,
         "prompt": prompt,
         "stream": False,
-        "options": {"temperature": 0.9, "num_ctx": 2048, "num_predict": 450},
+        "options": {"temperature": 0.7, "num_ctx": 2048, "num_predict": 450},
     }, timeout=900)
     return out["response"]
 
@@ -88,7 +88,7 @@ def _aistudio(prompt: str, model: str) -> str:
     # Gemma models on AI Studio take no system role, so prepend it.
     out = post_json(url, {
         "contents": [{"role": "user", "parts": [{"text": SYSTEM + "\n\n" + prompt}]}],
-        "generationConfig": {"temperature": 0.9, "maxOutputTokens": 600},
+        "generationConfig": {"temperature": 0.7, "maxOutputTokens": 600},
     }, headers={"x-goog-api-key": key}, timeout=120)
     return "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
 
