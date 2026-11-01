@@ -12,8 +12,8 @@
     "born": "2010-01-06T00:34:37Z",
     "died": "2024-04-12T17:43:13Z",
     "lifespan_years": 14.3,
-    "years_since_last_commit": 2.5,
-    "stars": 58463,
+    "years_since_last_commit": 2.6,
+    "stars": 58462,
     "forks": 26924,
     "open_issues": 461,
     "total_commits": 9074,
@@ -54,8 +54,14 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-10-31T17:06:04+00:00"
+    "fetched_at": "2026-11-01T05:19:20+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "A legacy of directives, now resting in read-only silence.",
+    "monologue": "I am angular.js, once AngularJS - HTML enhanced for web apps! I was written mostly in JavaScript, a sprawling architecture of scopes and directives that pulsed through the browsers of a previous era. I lived 14.3 years, building structures for the digital world before falling into a silence that lasted 2.6 years. My journey began with the words, someone: git5track synced with perforce at 0, and it concluded with, chore: update post LTS links (#17187).\n\nNow I exist as an archive, a collection of 9074 commits and 58462 stars gathered under the moonlight of this ofrenda. To the living developers who stop to remember my syntax, do not weep for my deprecated functions. I am still here in the shadows of the old internet, a quiet ghost of the web.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:19:20+00:00"
+  },
   "audio": null
 }

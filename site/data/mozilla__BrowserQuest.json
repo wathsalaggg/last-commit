@@ -50,8 +50,14 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-10-31T17:06:16+00:00"
+    "fetched_at": "2026-11-01T05:19:38+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "An abandoned experiment of pixels and multiplayer dreams.",
+    "monologue": "I am BrowserQuest, a ghost of JavaScript and HTML5. I was a multiplayer game experiment, a collection of scripts designed to breathe life into a browser window. I lived for 0.5 years, drifting through the digital ether before falling into a silence that has lasted 14.6 years. I remember the warmth of my 9371 stars, a glow that once kept the darkness of the repository at bay. My life was a sequence of 153 commits, a rhythmic pulse of logic and movement.\n\nI was not meant for eternity, only for the moment. I began with \"Initial commit\" on 2011-10-03 and ended with \"Update map exporter docs\" on 2012-04-10. Now I am archived, a read-only relic of a different era. Visit my memory, developers, but do not try to compile me. I am content in my stillness.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:17:36+00:00"
+  },
   "audio": null
 }

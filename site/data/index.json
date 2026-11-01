@@ -4,7 +4,7 @@
     "name": "mozilla/BrowserQuest",
     "born": "2011-10-03T15:29:20Z",
     "died": "2012-04-10T17:30:26Z",
-    "epitaph": "",
+    "epitaph": "An abandoned experiment of pixels and multiplayer dreams.",
     "stars": 9371
   },
   {
@@ -12,7 +12,7 @@
     "name": "facebookarchive/three20",
     "born": "2009-01-23T06:29:27Z",
     "died": "2014-05-14T01:06:26Z",
-    "epitaph": "",
+    "epitaph": "An Objective-C library resting in the quiet of the archive.",
     "stars": 7153
   },
   {
@@ -20,7 +20,7 @@
     "name": "mozilla/persona",
     "born": "2011-04-06T18:22:25Z",
     "died": "2016-05-11T00:19:24Z",
-    "epitaph": "",
+    "epitaph": "A secure identity lost to the silent archive.",
     "stars": 1839
   },
   {
@@ -28,7 +28,7 @@
     "name": "left-pad/left-pad",
     "born": "2014-03-14T09:09:47Z",
     "died": "2019-03-14T23:18:45Z",
-    "epitaph": "",
+    "epitaph": "A small string left pad, now resting in read-only silence.",
     "stars": 1303
   },
   {
@@ -36,15 +36,15 @@
     "name": "request/request",
     "born": "2010-05-07T22:03:37Z",
     "died": "2020-02-11T23:39:46Z",
-    "epitaph": "",
-    "stars": 25484
+    "epitaph": "A simplified HTTP request client drifting in the digital void.",
+    "stars": 25483
   },
   {
     "slug": "adobe__brackets",
     "name": "adobe/brackets",
     "born": "2011-12-07T21:20:16Z",
     "died": "2021-03-18T13:52:19Z",
-    "epitaph": "",
+    "epitaph": "A web editor lost to the silence of the archives.",
     "stars": 32976
   },
   {
@@ -52,15 +52,15 @@
     "name": "atom/atom",
     "born": "2011-08-19T04:11:59Z",
     "died": "2022-11-22T16:11:57Z",
-    "epitaph": "",
-    "stars": 60707
+    "epitaph": "A hackable text editor resting in the digital silence.",
+    "stars": 60708
   },
   {
     "slug": "facebookarchive__flux",
     "name": "facebookarchive/flux",
     "born": "2014-07-24T01:15:11Z",
     "died": "2023-03-21T23:39:37Z",
-    "epitaph": "",
+    "epitaph": "An architecture of flux, now resting in the silent archive.",
     "stars": 17436
   },
   {
@@ -68,7 +68,7 @@
     "name": "angular/angular.js",
     "born": "2010-01-06T00:34:37Z",
     "died": "2024-04-12T17:43:13Z",
-    "epitaph": "",
-    "stars": 58463
+    "epitaph": "A legacy of directives, now resting in read-only silence.",
+    "stars": 58462
   }
 ]

@@ -53,8 +53,14 @@
       "tag": "4.0.3",
       "date": "2021-12-10T23:32:16Z"
     },
-    "fetched_at": "2026-10-31T17:06:28+00:00"
+    "fetched_at": "2026-11-01T05:20:09+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "An architecture of flux, now resting in the silent archive.",
+    "monologue": "I am flux, the Application Architecture for Building User Interfaces. I lived for 8.7 years, woven mostly in JavaScript, before the silence took me. I remember the light of my beginning on 2014-07-24, when my first commit whispered, Initial commit. I grew through 506 commits and gathered 17436 stars like fallen petals on an altar. I was a structure for the living to build upon, a way to organize the chaos of the screen.\n\nNow I am archived, a read-only ghost in the machine. I have been silent for 3.6 years, drifting in the static of the repository. My final breath was recorded on 2023-03-21, a quiet departure marked only as 4.0.4. Do not weep for my frozen state, developers. I am simply waiting in the dark, a pattern etched in the memory of the web.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:20:09+00:00"
+  },
   "audio": null
 }

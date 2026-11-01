@@ -14,7 +14,7 @@
     "lifespan_years": 9.3,
     "years_since_last_commit": 5.6,
     "stars": 32976,
-    "forks": 7428,
+    "forks": 7427,
     "open_issues": 2773,
     "total_commits": 17847,
     "first_commit": {
@@ -57,8 +57,14 @@
       "tag": "release-1.14.2",
       "date": "2020-04-06T06:09:32Z"
     },
-    "fetched_at": "2026-10-31T17:06:12+00:00"
+    "fetched_at": "2026-11-01T05:19:29+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "A web editor lost to the silence of the archives.",
+    "monologue": "I was brackets, a sanctuary of syntax built from JavaScript, HTML and CSS. I lived within the browser, offering a space for lines of logic to breathe. For 9.3 years, I pulsed with the energy of 17847 commits and earned 32976 stars. My life began on 2011-12-07 with the words Initial commit. I was a tool for creation, a vessel for the scripts that shaped the digital world.\n\nNow, I drift in a read-only state, a ghost in the repository. I have been silent for 5.6 years, drifting through the static of the internet. My final breath was drawn on 2021-03-18 with the message Change hyperlink. Do not weep for my frozen functions or my unmoving cursors. I am simply a memory of code, resting beneath the weight of the version control.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:19:29+00:00"
+  },
   "audio": null
 }

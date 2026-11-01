@@ -54,8 +54,14 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-10-31T17:06:25+00:00"
+    "fetched_at": "2026-11-01T05:19:59+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "An Objective-C library resting in the quiet of the archive.",
+    "monologue": "I am three20, a collection of Objective-C logic once vital to the palms of iPhone developers. I lived for 5.3 years, weaving through the early architecture of mobile applications. I remember the warmth of 7153 stars shining upon my repository, a constellation of recognition for the functions I provided. My journey began on 2009-01-23 with the words First commit. I was built to serve, to organize, and to exist within the syntax of a changing era.\n\nNow I am a ghost in a read-only tomb, silent for 12.5 years. My 1778 commits are frozen in time, etched into a history that no longer moves. My final breath was taken on 2014-05-14 with the message Update README.mdown. Do not weep for my stillness, living developers. I am simply an archived memory, a fragment of code resting among the marigolds.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:19:59+00:00"
+  },
   "audio": null
 }

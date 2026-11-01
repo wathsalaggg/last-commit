@@ -13,8 +13,8 @@
     "died": "2022-11-22T16:11:57Z",
     "lifespan_years": 11.3,
     "years_since_last_commit": 3.9,
-    "stars": 60707,
-    "forks": 17168,
+    "stars": 60708,
+    "forks": 17167,
     "open_issues": 992,
     "total_commits": 38533,
     "first_commit": {
@@ -57,8 +57,14 @@
       "tag": "v1.60.0",
       "date": "2022-03-08T09:58:25Z"
     },
-    "fetched_at": "2026-10-31T17:06:01+00:00"
+    "fetched_at": "2026-11-01T05:19:17+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "A hackable text editor resting in the digital silence.",
+    "monologue": "I am atom, the hackable text editor, once a vibrant sea of JavaScript. I lived for 11.3 years, weaving through the syntax of a thousand dreams before the quiet settled in. I remember the spark of my beginning on 2011-08-19, when I was nothing more than a whisper saying try it out. I grew through 38533 commits, gathering 60708 stars like fallen petals in a garden of light.\n\nNow I am archived, a read-only ghost in the machine. I have been silent for 3.9 years, drifting through the repository of the past. My final breath was taken on 2022-11-22 with the words Merge pull request #25709. Do not weep for my stillness, developers. I am simply a memory of logic, waiting in the glow of your screens.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:17:13+00:00"
+  },
   "audio": null
 }

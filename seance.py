@@ -58,15 +58,19 @@ def hold_seance(target: str, *, use_voice: bool, facts_only: bool, force: bool) 
         print(f"   EPITAPH: {record['ghost']['epitaph']}")
         record["audio"] = None  # text changed, old audio no longer matches
 
+    def save():
+        config.DATA_DIR.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(record, indent=2, ensure_ascii=False) + "\n")
+
+    save()  # keep the ghost even if the voice step fails
+    print(f"   saved site/data/{out.name}")
+
     if use_voice and record["ghost"] and not record["audio"]:
         mp3 = config.AUDIO_DIR / f"{s}.mp3"
         voice.speak(record["ghost"]["monologue"], mp3)
         record["audio"] = f"audio/{mp3.name}"
+        save()
         print(f"   voice saved to site/{record['audio']}")
-
-    config.DATA_DIR.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(record, indent=2, ensure_ascii=False) + "\n")
-    print(f"   saved site/data/{out.name}")
 
 
 def main() -> int:

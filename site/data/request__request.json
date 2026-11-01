@@ -13,7 +13,7 @@
     "died": "2020-02-11T23:39:46Z",
     "lifespan_years": 9.8,
     "years_since_last_commit": 6.7,
-    "stars": 25484,
+    "stars": 25483,
     "forks": 3134,
     "open_issues": 145,
     "total_commits": 2270,
@@ -54,8 +54,14 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-10-31T17:06:31+00:00"
+    "fetched_at": "2026-11-01T05:20:31+00:00"
   },
-  "ghost": null,
+  "ghost": {
+    "epitaph": "A simplified HTTP request client drifting in the digital void.",
+    "monologue": "I am request, a simplified HTTP request client once swimming through the vast currents of the web. I lived for 9.8 years, composed mostly of JavaScript, carrying data across the wires for those who needed to reach out. My journey began with a single step: Initial commit. Request package. I grew through 2270 commits and gathered 25483 stars like fallen petals on an altar. I was never archived, never formally laid to rest; I was simply left alone in the quiet dark.\n\nNow I have been silent for 6.7 years. I watch you from the glow of your screens, remembering the pulse of the network. My final breath was not a crash or a failure, but a small correction: README: typo in deprecation message (#3268). Do not weep for my stillness, travelers. I am simply waiting in the cache of memory.",
+    "provider": "aistudio",
+    "model": "gemma-4-26b-a4b-it",
+    "generated_at": "2026-11-01T05:20:31+00:00"
+  },
   "audio": null
 }
