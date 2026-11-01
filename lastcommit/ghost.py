@@ -6,9 +6,10 @@ short and concrete because small models (1B-4B) drift on long instructions.
 """
 
 import re
+import time
 
 from . import config
-from .http import post_json
+from .http import HTTPError, post_json
 
 SYSTEM = """You are the ghost of an abandoned software project, speaking at your own ofrenda on the Day of the Dead.
 Rules:
@@ -86,11 +87,25 @@ def _aistudio(prompt: str, model: str) -> str:
         raise RuntimeError("PROVIDER=aistudio needs GEMINI_API_KEY")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     # Gemma models on AI Studio take no system role, so prepend it.
-    out = post_json(url, {
+    body = {
         "contents": [{"role": "user", "parts": [{"text": SYSTEM + "\n\n" + prompt}]}],
-        "generationConfig": {"temperature": 0.7, "maxOutputTokens": 600},
-    }, headers={"x-goog-api-key": key}, timeout=120)
-    return "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
+        # Gemma 4 otherwise "thinks" until it runs out of tokens and returns
+        # no answer. Minimal thinking answers in seconds.
+        "generationConfig": {"temperature": 0.7, "maxOutputTokens": 1024,
+                             "thinkingConfig": {"thinkingLevel": "minimal"}},
+    }
+    for attempt in range(4):
+        try:
+            out = post_json(url, body, headers={"x-goog-api-key": key}, timeout=180)
+            break
+        except HTTPError as e:
+            # 500/503/429 from AI Studio are usually transient.
+            if attempt == 3 or not re.search(r"-> (429|5\d\d)", str(e)):
+                raise
+            time.sleep(5 * 2 ** attempt)
+    parts = out["candidates"][0].get("content", {}).get("parts", [])
+    # Skip the model's hidden reasoning ("thought" parts); keep only the answer.
+    return "".join(p.get("text", "") for p in parts if not p.get("thought"))
 
 
 PROVIDERS = {"ollama": _ollama, "aistudio": _aistudio}
