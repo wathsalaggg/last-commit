@@ -54,7 +54,7 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-11-01T05:19:49+00:00"
+    "fetched_at": "2026-11-01T05:27:21+00:00"
   },
   "ghost": {
     "epitaph": "A secure identity lost to the silent archive.",
@@ -63,5 +63,5 @@
     "model": "gemma-4-26b-a4b-it",
     "generated_at": "2026-11-01T05:19:49+00:00"
   },
-  "audio": null
+  "audio": "audio/mozilla__persona.mp3"
 }

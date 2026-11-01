@@ -57,7 +57,7 @@
       "tag": "v1.60.0",
       "date": "2022-03-08T09:58:25Z"
     },
-    "fetched_at": "2026-11-01T05:19:17+00:00"
+    "fetched_at": "2026-11-01T05:26:39+00:00"
   },
   "ghost": {
     "epitaph": "A hackable text editor resting in the digital silence.",
@@ -66,5 +66,5 @@
     "model": "gemma-4-26b-a4b-it",
     "generated_at": "2026-11-01T05:17:13+00:00"
   },
-  "audio": null
+  "audio": "audio/atom__atom.mp3"
 }

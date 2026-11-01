@@ -54,7 +54,7 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-11-01T05:19:20+00:00"
+    "fetched_at": "2026-11-01T05:26:46+00:00"
   },
   "ghost": {
     "epitaph": "A legacy of directives, now resting in read-only silence.",
@@ -63,5 +63,5 @@
     "model": "gemma-4-26b-a4b-it",
     "generated_at": "2026-11-01T05:19:20+00:00"
   },
-  "audio": null
+  "audio": "audio/angular__angular.js.mp3"
 }

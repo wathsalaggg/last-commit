@@ -54,7 +54,7 @@
       }
     ],
     "latest_release": null,
-    "fetched_at": "2026-11-01T05:20:31+00:00"
+    "fetched_at": "2026-11-01T05:27:46+00:00"
   },
   "ghost": {
     "epitaph": "A simplified HTTP request client drifting in the digital void.",
@@ -63,5 +63,5 @@
     "model": "gemma-4-26b-a4b-it",
     "generated_at": "2026-11-01T05:20:31+00:00"
   },
-  "audio": null
+  "audio": "audio/request__request.mp3"
 }
