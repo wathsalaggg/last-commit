@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Last Commit — a graveyard for dead repos</title>
+  <meta name="description" content="The ghosts of abandoned GitHub repos, raised from their commit history and given a voice for Día de Muertos.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕯️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="papel" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <a href="#/" class="title-link"><h1>Last Commit</h1></a>
+    <p class="tagline">Every repo dies with one final commit. Tonight, they speak.</p>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <p class="loading">Lighting the candles…</p>
+  </main>
+
+  <footer>
+    <p>
+      The séance runs locally. Monologues are written by <strong>Gemma</strong> on the author's laptop
+      and voiced by <strong>ElevenLabs</strong>. Facts come from the GitHub API.
+      Ghosts are fiction; facts are not.
+    </p>
+    <p><a href="https://github.com/wathsalaggg/last-commit">Source on GitHub</a></p>
+  </footer>
+
+  <template id="tomb-tpl">
+    <a class="tomb">
+      <span class="candle" aria-hidden="true"><span class="flame"></span></span>
+      <span class="rip">R.I.P.</span>
+      <span class="tomb-name"></span>
+      <span class="tomb-dates"></span>
+      <span class="tomb-epitaph"></span>
+    </a>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
